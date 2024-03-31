@@ -174,7 +174,6 @@ section {
   height: 450px;
   width: 450px;
   margin: auto 0;
-  border-radius: 20%; /* Make the image circular */
   overflow: hidden; /* Ensure content doesn't overflow */
 }
 
@@ -196,11 +195,11 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
 }
+
 .section__text__p3 {
   text-align: center;
-  width: 50%; /* Adjust width as needed */
-  margin: 0 auto; /* Center the element horizontally */
 }
+
 
 .title {
   font-size: 3rem;
