@@ -167,11 +167,6 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 70vh;
-
-  border-radius: 5rem;
-  border: rgb(53, 53, 53) 0.5rem solid;
-  border-color: rgb(163, 163, 163);
 }
 
 .section__pic-container {
@@ -202,7 +197,6 @@ section {
   font-size: 1.75rem;
 }
 .section__text__p3 {
-  width: 30rem;
   text-align: center;
 }
 
