@@ -36,7 +36,8 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 15vh;
+
 }
 
 .nav-links {
@@ -149,9 +150,9 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
+  padding-top: 2vh;
   height: 96vh;
-  margin: 0 10rem;
+  margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -166,15 +167,22 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 70vh;
+
+  border-radius: 5rem;
+  border: rgb(53, 53, 53) 0.5rem solid;
+  border-color: rgb(163, 163, 163);
 }
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 450px;
+  width: 450px;
   margin: auto 0;
+  border-radius: 50%; /* Make the image circular */
+  overflow: hidden; /* Ensure content doesn't overflow */
 }
+
 
 .section__text {
   align-self: center;
@@ -187,11 +195,15 @@ section {
 
 .section__text__p1 {
   text-align: center;
+    font-size: 1.5rem;
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+}
+.section__text__p3 {
+  width: 30rem;
+  text-align: center;
 }
 
 .title {
@@ -219,6 +231,8 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+    margin-top: 1rem;
+
 }
 
 .btn {
@@ -284,7 +298,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 5rem;
 }
 
 .arrow {
@@ -305,14 +319,10 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 70%;
 }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
-}
+s
 
 /* EXPERIENCE SECTION */
 
@@ -384,6 +394,7 @@ article .icon {
 
 #contact {
   display: flex;
+  position: relative;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
@@ -430,3 +441,5 @@ footer {
 footer p {
   text-align: center;
 }
+
+
