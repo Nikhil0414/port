@@ -167,7 +167,8 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  padding: 12vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   display: flex;
   justify-content: center;
   gap: 10rem;
