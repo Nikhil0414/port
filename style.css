@@ -354,7 +354,7 @@ s
 }
 
 .experience-details-container2 {
-  margin-top: -4rem;
+  margin-top: -5rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -414,6 +414,7 @@ article .icon {
   position: relative;
   justify-content: center;
   flex-direction: column;
+  margin: 0 4rem;
   height: 70vh;
 }
 
@@ -422,7 +423,7 @@ article .icon {
   justify-content: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.2rem solid;
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(0, 0, 0);
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
