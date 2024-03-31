@@ -151,11 +151,13 @@ a:hover {
 
 section {
   padding: 2vh;
-  height: 76vh;
-  margin: 0 5rem;
+  height: auto;
+  margin: 0 4rem;
   box-sizing: border-box;
   min-height: fit-content;
   margin-bottom: 5rem;
+  margin-top: 2rem;
+
 }
 
 .section-container {
@@ -165,12 +167,15 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+  padding: 12vh;
   display: flex;
   justify-content: center;
-  gap: 7rem;
+  gap: 10rem;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.5rem solid;
   border-color: rgb(0, 0, 0);
+  overflow: hidden;
+
 }
 
 .section__pic-container {
@@ -348,7 +353,7 @@ s
 }
 
 .experience-details-container2 {
-  margin-top: -6rem;
+  margin-top: -5rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -409,7 +414,6 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 50vh;
-  margin-top: -10rem;
 }
 
 .contact-info-upper-container {
