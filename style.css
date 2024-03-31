@@ -150,11 +150,12 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 2vh;
-  height: 96vh;
+  padding: 2vh;
+  height: 76vh;
   margin: 0 5rem;
   box-sizing: border-box;
   min-height: fit-content;
+  margin-bottom: 5rem;
 }
 
 .section-container {
@@ -306,7 +307,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
+  right: -2rem;
   bottom: 2.5rem;
 }
 
@@ -315,8 +316,8 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: rgb(53, 53, 53) 0.2rem solid;
+  border-color: rgb(0, 0, 0);
   text-align: center;
 }
 
@@ -341,6 +342,13 @@ s
 }
 
 .experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.experience-details-container2 {
+  margin-top: -6rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -373,12 +381,12 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
+  border-color: rgb(0, 0, 0);
   background: rgb(250, 250, 250);
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
 }
@@ -400,14 +408,15 @@ article .icon {
   position: relative;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
+  margin-top: -10rem;
 }
 
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(53, 53, 53) 0.2rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
   margin: 2rem auto;
