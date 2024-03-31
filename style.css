@@ -166,7 +166,10 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 7rem;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.5rem solid;
+  border-color: rgb(0, 0, 0);
 }
 
 .section__pic-container {
@@ -190,6 +193,11 @@ section {
 .section__text__p1 {
   text-align: center;
     font-size: 1.5rem;
+}
+.section__text__p12 {
+  text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
 }
 
 .section__text__p2 {
@@ -436,5 +444,3 @@ footer {
 footer p {
   text-align: center;
 }
-
-
