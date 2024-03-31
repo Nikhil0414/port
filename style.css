@@ -198,6 +198,8 @@ section {
 }
 .section__text__p3 {
   text-align: center;
+  width: 50%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the element horizontally */
 }
 
 .title {
