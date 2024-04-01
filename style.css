@@ -425,6 +425,7 @@ article .icon {
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
+  gap: 1rem;
   padding: 0.5rem;
 }
 
@@ -433,7 +434,7 @@ article .icon {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  margin: 1rem;
+  margin-top: 2rem;
 }
 
 .contact-info-container p {
