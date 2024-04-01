@@ -414,10 +414,10 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin: 2rem auto;
+  margin: 3rem auto;
   background: (250, 250, 250);
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.5rem solid;
+  border: rgb(53, 53, 53) 0.3rem solid;
   border-color: rgb(0, 0, 0);
   overflow: hidden;
 }
