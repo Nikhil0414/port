@@ -1,515 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-  </head>
-  <body>
-
-    <nav id="desktop-nav">
-      <div class="logo">Nikhil's Portfolio</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  
+  <nav id="desktop-nav">
+    <div class="logo">Nikhil's Portfolio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Nikhil</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">Nikhil</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  
+  
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="assets/profile-pic1.png " alt="Nikhil profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Nikhil</h1>
+      <p class="section__text__p2">Python Developer </p>
+      <p class="section__text__p2">AI & ML Enthusiast</p>
+      
+      
+      
+      <div class="btn-container">
+        <button
+        class="btn btn-color-2"
+        onclick="window.open('assets/Nikhil_Resume.pdf')"
+        >
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+      </button>
+    </div>
+    <div id="socials-container">
+      <img
+      src="assets/linkedin.png "
+      alt="My LinkedIn profile"
+      class="icon"
+      onclick="location.href='https://www.linkedin.com/in/nikhil761401/'"
+      />
+      <img
+      src="assets/github.png "
+      alt="My Github profile"
+      class="icon"
+      onclick="location.href='https://github.com/Nikhil0414'"
+      />
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section id="about">
+  <p class="section__text__p12">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+  <div class="about-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <img
+        src="assets/experience.png "
+        alt="Experience icon"
+        class="icon"
+        />
+        <h3>Experience</h3>
+        <p class="section__text__p">Python Developer Intern<br />Scifor Technologies<br/>01/2024 - Present</p>
+      </div>
+      <div class="details-container">
+        <img
+        src="assets/education.png "
+        alt="Education icon"
+        class="icon"
+        />
+        <h3>Education</h3>
+        <p>Integrated M.Tech. (5 Years)<br /> (Software Engineering)<br /> 07/2019 - 07/2024</p>
+      </div>
+    </div>
+    <div class="text-container">
+      <p>
+        I am Nikhil, a Data-Driven Software Engineer with a fervent enthusiasm for exploring the realms of artificial intelligence and machine learning. Throughout my academic journey at Vellore Institute of Technology, I have honed my skills in Python development, statistical analysis, and data visualization, culminating in projects like Housing Price Prediction and Dark Web Crawler. These endeavors not only showcase my proficiency in utilizing supervised machine learning algorithms but also underscore my ability to craft intuitive web interfaces using Flask and JavaScript. Complementing my academic pursuits, I have pursued certifications from renowned institutions such as Google and Microsoft, solidifying my expertise in advanced data analytics and software development essentials. Currently, as a Python Developer Intern at Scifor Technologies, I am dedicated to fostering clean and modular code practices while contributing to innovative technological solutions. Let's connect and embark on a journey to innovate and transform the tech landscape together!
+      </p>
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+
+<section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Data Science and Machine Learning</h2>
+        <div class="article-container">
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Python</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Numpy</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Pandas</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Matplotlib</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Seaborn</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Scikit</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Tensorflow</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Pytorch</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Web Development</h2>
+        <div class="article-container">
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Django</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Flask</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>Git</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>REST API</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>FAST API</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>PostgreSQL</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>HTML</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>CSS</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+            src="assets/checkmark.png "
+            alt="Experience icon"
+            class="icon"
+            />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          
+          
         </div>
       </div>
-    </nav>
-
-
-
-
-    
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="assets/profile-pic1.png " alt="Nikhil profile picture" />
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  <section id="projects">
+    <p class="section__text__p12">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+            src="assets/hp.avif"
+            alt="Project 1"
+            class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Housing Price Prediction</h2>
+          <div class="btn-container">
+            <button
+            class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Nikhil0414/Housing-price-prediction-using-supervised-machine-learning-algorithms'"
+            >
+            Github
+          </button>
+          <button
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/'"
+          >
+          Live Demo
+        </button>
       </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Nikhil</h1>
-        <p class="section__text__p2">Python Developer </p>
-        <p class="section__text__p2">AI & ML Enthusiast</p>
+    </div>
+    <div class="details-container color-container">
+      <div class="article-container">
+        <img
+        src="assets/surface-web-vs-deep-web-vs-dark-web.png "
+        alt="Project 2"
+        class="project-img"
+        />
+      </div>
+      <h2 class="experience-sub-title project-title">Dark Web Crawler Python</h2>
+      <div class="btn-container">
+        <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/Nikhil0414/DarkWebCrawler'"
+        >
+        Github
+      </button>
+      <button
+      class="btn btn-color-2 project-btn"
+      onclick="location.href='https://github.com/'"
+      >
+      Live Demo
+    </button>
+  </div>
+</div>
+<div class="details-container color-container">
+  <div class="article-container">
+    <img
+    src="assets/sp.png"
+    alt="Project 3"
+    class="project-img"
+    />
+  </div>
+  <h2 class="experience-sub-title project-title">Social Plum: Share & Inspire</h2>
+  <div class="btn-container">
+    <button
+    class="btn btn-color-2 project-btn"
+    onclick="location.href='https://github.com/Nikhil0414/Social-Plum-Share-Inspire'"
+    >
+    Github
+  </button>
+  <button
+  class="btn btn-color-2 project-btn"
+  onclick="location.href='https://github.com/'"
+  >
+  Live Demo
+</button>
+</div>
+</div>
 
-        
+</div>
+</div>
+</section>
 
+
+
+
+
+
+
+
+
+<section id="projects">
+  <div class="experience-details-container2">
+    <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+          src="assets/project-1.png "
+          alt="Project 1"
+          class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">BookVerse: </h2>
         <div class="btn-container">
           <button
-            class="btn btn-color-2"
-            onclick="window.open('assets/Nikhil_Resume.pdf')"
+          class="btn btn-color-2 project-btn"
+          onclick="location.href='https://github.com/'"
           >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img
-            src="assets/linkedin.png "
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/nikhil761401/'"
-          />
-          <img
-            src="assets/github.png "
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/Nikhil0414'"
-          />
-        </div>
-      </div>
+          Github
+        </button>
+        <button
+        class="btn btn-color-2 project-btn"
+        onclick="location.href='https://github.com/'"
+        >
+        Live Demo
+      </button>
+    </div>
+  </div>
+  <div class="details-container color-container">
+    <div class="article-container">
+      <img
+      src="assets/project-2.png "
+      alt="Project 2"
+      class="project-img"
+      />
+    </div>
+    <h2 class="experience-sub-title project-title">Project Two</h2>
+    <div class="btn-container">
+      <button
+      class="btn btn-color-2 project-btn"
+      onclick="location.href='https://github.com/'"
+      >
+      Github
+    </button>
+    <button
+    class="btn btn-color-2 project-btn"
+    onclick="location.href='https://github.com/'"
+    >
+    Live Demo
+  </button>
+</div>
+</div>
+<div class="details-container color-container">
+  <div class="article-container">
+    <img
+    src="assets/project-3.png "
+    alt="Project 3"
+    class="project-img"
+    />
+  </div>
+  <h2 class="experience-sub-title project-title">Project Three</h2>
+  <div class="btn-container">
+    <button
+    class="btn btn-color-2 project-btn"
+    onclick="location.href='https://github.com/'"
+    >
+    Github
+  </button>
+  <button
+  class="btn btn-color-2 project-btn"
+  onclick="location.href='https://github.com/'"
+  >
+  Live Demo
+</button>
+</div>
+</div>
 
 
-
-
-
-
-    </section>
-    <section id="about">
-      <p class="section__text__p12">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="assets/experience.png "
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p class="section__text__p">Python Developer Intern<br />Scifor Technologies<br/>01/2024 - Present</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="assets/education.png "
-                alt="Education icon"
-                class="icon"
-              />
-              <h3>Education</h3>
-              <p>Integrated M.Tech. (5 Years)<br /> (Software Engineering)<br /> 07/2019 - 07/2024</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              I am Nikhil, a Data-Driven Software Engineer with a fervent enthusiasm for exploring the realms of artificial intelligence and machine learning. Throughout my academic journey at Vellore Institute of Technology, I have honed my skills in Python development, statistical analysis, and data visualization, culminating in projects like Housing Price Prediction and Dark Web Crawler. These endeavors not only showcase my proficiency in utilizing supervised machine learning algorithms but also underscore my ability to craft intuitive web interfaces using Flask and JavaScript. Complementing my academic pursuits, I have pursued certifications from renowned institutions such as Google and Microsoft, solidifying my expertise in advanced data analytics and software development essentials. Currently, as a Python Developer Intern at Scifor Technologies, I am dedicated to fostering clean and modular code practices while contributing to innovative technological solutions. Let's connect and embark on a journey to innovate and transform the tech landscape together!
-            </p>
-          </div>
-        </div>
-      
-
-
-
-
-
-
-    </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Data Science and Machine Learning</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Numpy</h3>
-                  <p>Experienced</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Pandas</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Matplotlib</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Seaborn</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Scikit</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Tensorflow</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-               <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Pytorch</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-            </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Web Development</h2>
-            <div class="article-container">
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Django</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Flask</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>REST API</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>FAST API</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="assets/checkmark.png "
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              
-              
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
-
-
-      <section id="projects">
-      <p class="section__text__p12">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-1.png "
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-2.png "
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-3.png "
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
-    <section id="projects">
-      <div class="experience-details-container2">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-1.png "
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-2.png "
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="assets/project-3.png "
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
 
 
 
@@ -521,62 +520,61 @@
 
 
 
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-
-
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="assets/email.png "
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p><a href="mailto:nikhilkalkhanda@gmail.com">nikhilkalkhanda@gmail.com</a></p>
-        </div>
-        
-        <div class="contact-info-container">
-          <img
-            src="assets/linkedin.png "
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
-          <p><a href="https://www.linkedin.com/in/nikhil761401/">LinkedIn</a></p>
-        </div>
-
-        <div class="contact-info-container">
-          <img
-            src="assets/email.png "
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
-          <p>+91 8368339387</p>
-        </div>
-      </div>
-
-    </section>
-
-
+<section id="contact">
+  <p class="section__text__p1">Get in Touch</p>
+  <h1 class="title">Contact Me</h1>
+  
+  
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+      src="assets/email.png "
+      alt="Email icon"
+      class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:nikhilkalkhanda@gmail.com">nikhilkalkhanda@gmail.com</a></p>
+    </div>
+    
+    <div class="contact-info-container">
+      <img
+      src="assets/linkedin.png "
+      alt="LinkedIn icon"
+      class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/nikhil761401/">LinkedIn</a></p>
+    </div>
+    
+    <div class="contact-info-container">
+      <img
+      src="assets/phone.png "
+      alt="Phone icon"
+      class="icon contact-icon phone-icon"
+      />
+      <p>+91 8368339387</p>
+    </div>
+  </div>
+</section>
 
 
 
 
 
 
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <p>Copyright &#169; 2024 Nikhil. All Rights Reserved.</p>
-    </footer>
-    <script src="script.js "></script>
-  </body>
+
+
+<footer>
+  <nav>
+    <div class="nav-links-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <p>Copyright &#169; 2024 Nikhil. All Rights Reserved.</p>
+</footer>
+<script src="script.js "></script>
+</body>
 </html>
