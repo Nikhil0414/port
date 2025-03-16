@@ -1,14 +1,13 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
+    height: auto;
+    margin-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
+
   .about-containers {
     flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
   }
 }
 
@@ -16,87 +15,94 @@
   #desktop-nav {
     display: none;
   }
+
   #hamburger-nav {
     display: flex;
   }
+
   #experience,
   .experience-details-container {
     margin-top: 2rem;
   }
+
   #profile,
   .section-container {
     display: block;
   }
+
   .arrow {
     display: none;
   }
+
   section,
   .section-container {
     height: fit-content;
+    padding: 2rem 1rem;
   }
-  section {
-    margin: 0 5%;
-  }
+
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 70%;
+    max-width: 350px;
     margin: 0 auto 2rem;
   }
+
   .about-containers {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
-  }
   #profile {
-    height: 83vh;
-    margin-bottom: 0;
-  }
-  article {
-    font-size: 1rem;
-  }
-  footer nav {
-    height: fit-content;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-bottom: 2rem;
   }
-  .about-containers,
-  .contact-info-upper-container,
+
+  .section__pic-container {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto 1.5rem;
+  }
+
+  .section__pic-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .section__text {
+    text-align: center;
+    padding: 0 1rem;
+  }
+
   .btn-container {
-    flex-wrap: wrap;
+    margin-top: 1.5rem;
   }
-  .contact-info-container {
-    margin: 0;
+
+  #contact,
+  footer {
+    height: auto;
+    padding: 2rem 1rem;
   }
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
+
+  .about-containers,
+  .contact-info-container,
+  .experience-details-container {
+    flex-direction: column;
   }
+
+  .logo,
+  .nav-links li a,
+  .section__text__p2,
   .experience-sub-title {
     font-size: 1.25rem;
   }
-  .logo {
-    font-size: 1.5rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-  }
-  .section__text__p2 {
-    font-size: 1.25rem;
-  }
+
   .title {
     font-size: 2rem;
   }
+
   .text-container {
     text-align: justify;
   }
